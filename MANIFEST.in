@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include patanjali *.css
+recursive-include patanjali *.csv
+recursive-include patanjali *.html
+recursive-include patanjali *.ico
+recursive-include patanjali *.js
+recursive-include patanjali *.json
+recursive-include patanjali *.md
+recursive-include patanjali *.png
+recursive-include patanjali *.py
+recursive-include patanjali *.svg
+recursive-include patanjali *.txt
+recursive-exclude patanjali *.pyc
